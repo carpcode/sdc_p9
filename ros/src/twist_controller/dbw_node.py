@@ -57,6 +57,7 @@ class DBWNode(object):
         self.current_vel = 0.0
         self.angular_vel = 0.0
         self.linear_vel = 0.0
+        self.dbw_enabled = False
 
 
         # TODO: Create `Controller` object
