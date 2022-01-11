@@ -20,7 +20,7 @@ class Controller(object):
         ki = 0.1
         kd = 0.
         mn = 0. # Minimum throttle value
-        mx = 1.0 # Maximum throttle value
+        mx = 0.2 # Maximum throttle value
         self.throttle_controller = PID(kp, ki, kd, mn, mx)
 
         # filters out the frequency in the velocity signal
