@@ -6,3 +6,5 @@ devel
 profile.tmp
 
 ros/src/.DS_Store
+
+/data/dbw_test.rosbag.bag
